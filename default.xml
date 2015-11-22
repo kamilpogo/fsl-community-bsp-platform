@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="http://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/kamilpogo" name="kamilpogo"/>
 
   <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
   <project remote="freescale" revision="fido" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -20,5 +21,6 @@
   <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="fido" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="fido" name="Documentation" path="sources/Documentation"/>
+  <project remote="kamilpogo" revision="fido" name="meta-lxde" path="sources/meta-lxde"/>
 
 </manifest>
